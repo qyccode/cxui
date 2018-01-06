@@ -5,7 +5,9 @@
 ## Yawrap
 ---
 > A lightweight web development framework based on Jquery.
+
 > 一款基于Jquery的轻量级Web开发框架。
+
 项目主页：http://yawrap.yawzhou.com
 
 require Jquery(http://jquery.com/)
@@ -36,4 +38,4 @@ dist文件夹里的便是用于生产环境的yawrap，里面Jquery的版本是1
 Released under the MIT License(https://opensource.org/licenses/MIT)
 
 ### Thanks
-* 隐澈 (UI小可爱)
+* 隐澈 (我的小伙伴UI小可爱)
