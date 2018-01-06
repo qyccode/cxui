@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://yawrap.yawzhou.com" target="_blank"><img src="http://img.yawzhou.com/yawrap.png" width="50%"/></a>
+  <a href="http://yawrap.yawzhou.com"><img src="http://img.yawzhou.com/yawrap.png" width="50%"/></a>
 </p>
 
 ## Yawrap
@@ -8,7 +8,7 @@
 
 > 一款基于Jquery的轻量级Web开发框架。
 
-项目主页：<a href="http://yawrap.yawzhou.com" target="_blank">yawrap.yawzhou.com</a>
+项目主页：http://yawrap.yawzhou.com
 
 require Jquery(http://jquery.com/)
 因此您在使用前需要引入Jquery
