@@ -38,6 +38,6 @@ dist文件夹里的便是用于生产环境的yawrap，里面Jquery的版本是1
 Released under the MIT License(https://opensource.org/licenses/MIT)
 
 ### Thanks
-* 隐澈 (我的小伙伴UI小可爱)
+* 隐澈 (我的小伙伴 UI小可爱)
 
-#### Yawrap遵循语义化版本2.0.0(https://semver.org/lang/zh-CN/)
+##### Yawrap遵循语义化版本2.0.0(https://semver.org/lang/zh-CN/)
