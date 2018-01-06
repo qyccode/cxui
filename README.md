@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://yawrap.yawzhou.com" target="blank"><img src="http://img.yawzhou.com/yawrap.png" width="80%"/></a>
+  <a href="http://yawrap.yawzhou.com" target="blank"><img src="http://img.yawzhou.com/yawrap.png" width="50%"/></a>
 </p>
 
 ## Yawrap
