@@ -29,3 +29,9 @@ dist文件夹里的便是用于生产环境的yawrap,里面Jquery的版本是1.8
 </body>
 </html>
 ```
+
+### License
+Released under the MIT License(https://opensource.org/licenses/MIT)
+
+### Thanks
+* 隐澈 (我的UI小可爱)
