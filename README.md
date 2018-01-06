@@ -8,7 +8,7 @@
 
 > 一款基于Jquery的轻量级Web开发框架。
 
-项目主页：<a href="http://yawrap.yawzhou.com" target="blank">http://yawrap.yawzhou.com</a>
+项目主页：<a href="http://yawrap.yawzhou.com" target="blank">yawrap.yawzhou.com</a>
 
 require Jquery(http://jquery.com/)
 因此您在使用前需要引入Jquery
