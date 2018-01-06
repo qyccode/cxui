@@ -6,13 +6,14 @@
 ---
 > A lightweight web development framework based on Jquery.
 > 一款基于Jquery的轻量级Web开发框架。
+项目主页：http://yawrap.yawzhou.com
 
 require Jquery(http://jquery.com/)
 因此您在使用前需要引入Jquery
 
 ### Quick Start
-dist文件夹里的便是用于生产环境的yawrap,里面Jquery的版本是1.8.3,您可以按照实际情况选择自己需要的Jquery.
-然后您的页面结构应该是下面这样的,请注意<strong>无论js文件放在head内还是下面的</body>之前,一定要把Jquery文件放在最上面,否则会报错Jquery is not found.</strong>
+dist文件夹里的便是用于生产环境的yawrap，里面Jquery的版本是1.8.3，您可以按照实际情况选择自己需要的Jquery。
+然后您的页面结构应该是下面这样的，请注意无论js文件放在head内还是下面的</body>之前，一定要把Jquery文件放在最上面,否则会报错Jquery is not found。
 
 ```html
 <!DOCTYPE html>
