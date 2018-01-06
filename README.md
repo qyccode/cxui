@@ -22,12 +22,12 @@ dist文件夹里的便是用于生产环境的yawrap，里面Jquery的版本是1
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>这是个栗子</title>
+	<title>title</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 <body>
-    这里是body内容...
+    body...
 <script src="../dist/jquery.min.js"></script>
 <script src="../dist/yawrap.min.js"></script>
 </body>
