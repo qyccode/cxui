@@ -4,8 +4,28 @@
 
 ### Yawrap
 ---
-Yawrap的起源是自己维护公司网站的时候，根据老大的需求经常是同一个样式及功能写好几遍，复制粘帖又太乱，为了提高个人的撸码效率，Yawrap这个项目便应运而生了。
-
 > A lightweight web development framework based on Jquery.
+> 一款基于Jquery的轻量级Web开发框架。
 
-require Jquery(http://jquery.com/) `>=v2.1.4`
+require Jquery(http://jquery.com/)
+因此您在使用前需要引入Jquery
+
+#### Quick Start
+dist文件夹里的便是用于生产环境的yawrap,里面Jquery的版本是1.8.3,您可以按照实际情况选择自己需要的Jquery.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>这是个栗子</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script src="../dist/jquery.min.js"></script>
+	<script src="../dist/yawrap.min.js"></script>
+</head>
+<body>
+    这里是body内容...
+</body>
+</html>
+```
