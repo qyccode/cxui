@@ -2,7 +2,7 @@
   <a href="http://yawrap.yawzhou.com" target="blank"><img src="http://img.yawzhou.com/yawrap.png" /></a>
 </p>
 
-### Yawrap
+## Yawrap
 ---
 > A lightweight web development framework based on Jquery.
 > 一款基于Jquery的轻量级Web开发框架。
@@ -10,8 +10,9 @@
 require Jquery(http://jquery.com/)
 因此您在使用前需要引入Jquery
 
-#### Quick Start
+### Quick Start
 dist文件夹里的便是用于生产环境的yawrap,里面Jquery的版本是1.8.3,您可以按照实际情况选择自己需要的Jquery.
+然后您的页面结构应该是这样的:
 
 ```html
 <!DOCTYPE html>
