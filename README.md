@@ -40,4 +40,4 @@ Released under the MIT License(https://opensource.org/licenses/MIT)
 ### Thanks
 * 隐澈 (我的小伙伴 UI小可爱)
 
-##### Yawrap遵循语义化版本2.0.0(https://semver.org/lang/zh-CN/)
+##### Yawrap完全遵循语义化版本2.0.0(https://semver.org/lang/zh-CN/)
