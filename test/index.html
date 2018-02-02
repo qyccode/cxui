@@ -6,24 +6,57 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 	<meta name="renderer" content="webkit">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="author" content="YawZhou,admin@yawzhou.com">
+	<meta name="author" content="Yaw Zhou,admin@yawzhou.com">
 	<meta name="copyright" content="http://yawzhou.com">
 </head>
 <body>
-	<ul class="yaw-bl g-16 pad-g-20 m-g-24 c white hide" data-lh="50px">
-		<li class="yaw l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目一</li>
-		<li class="yaw l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目二</li>
-		<li class="yaw l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目三</li>
-		<li class="yaw l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目四</li>
-		<li class="yaw l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目五</li>
-		<li class="yaw l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目六</li>
-		<li class="yaw l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目七</li>
-		<li class="yaw l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目八</li>
+	<ul class="g-16 pad-g-20 m-g-24 c white hide" lh="50px">
+		<li class="l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目一</li>
+		<li class="l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目二</li>
+		<li class="l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目三</li>
+		<li class="l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目四</li>
+		<li class="l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目五</li>
+		<li class="l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目六</li>
+		<li class="l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目七</li>
+		<li class="l g-3 m-g-6 t-c bg-blue hv-bg-teal">栏目八</li>
 	</ul>
-	<p class="pc-bl red t-c">*pc端显示一行占16栅格</p>
-	<p class="pad-bl red t-c">*平板端显示一行占20栅格</p>
-	<p class="m-bl red t-c">*移动端显示两行占24栅格</p>
-<script src="../dist/jquery.min.js"></script>
+	<div class="pc-bl blue t-c" fs='18'>*pc端显示一行占16栅格</div>
+	<div class="pad-bl blue t-c" fs='17'>*平板端显示一行占20栅格</div>
+	<div class="m-bl t-c yawthr" bdb='2px solid #171612'>*移动端显示两行占24栅格</div>
+    <div class="bg-yawthr hv-bg-yawmain c" w="500" mgt="20" h="500" m-h="200" m-bg="#0ff" bd="5px solid #000"></div>
 <script src="../dist/yawrap.min.js"></script>
+<!-- <script type="text/javascript">
+	function yawTotop(speed,distance) {
+    yawtotop = document.querySelectorAll('.yaw-totop');
+        window.onscroll = function() {
+            for (var i = 0; i < yawtotop.length; i++) {
+                var timer = null;
+                if (document.body.scrollTop || document.documentElement.scrollTop > distance) {
+                    yawtotop[i].style.display = 'block';
+                } else {
+                    yawtotop[i].style.display = 'none';
+                }
+                yawtotop[i].style.cursor = 'pointer';
+                yawtotop[i].onclick = function() {
+                    cancelAnimationFrame(timer);
+                    timer = requestAnimationFrame(function fn(){
+                    var oTop = document.body.scrollTop || document.documentElement.scrollTop;
+                        if(oTop > 0){
+                            document.body.scrollTop = document.documentElement.scrollTop = oTop - speed;
+                            timer = requestAnimationFrame(fn);
+                        }else{
+                            cancelAnimationFrame(timer);
+                        }
+                    });
+                }
+            }
+        }
+    }
+var toTop1 = new yawTotop(50,600);
+</script> -->
+<script type="text/javascript">
+    /* 主要色: yawmain ; 辅助色: yawsec ; 备用色: yawthr */
+    yawColor('#f00','#999','#2196f3');
+</script>
 </body>
 </html>
