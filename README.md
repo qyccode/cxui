@@ -4,18 +4,14 @@
 
 ## Yawrap
 ---
-> A lightweight web development framework based on Jquery.
+> A simple procedural development of the web framework.
 
-> 一款基于Jquery的轻量级Web开发框架。
+> 一个简单过程式开发的web框架。
 
 项目主页：http://yawrap.yawzhou.com
 
-require Jquery(http://jquery.com/)
-因此您在使用前需要引入Jquery
-
 ### Quick Start
-dist文件夹里的便是用于生产环境的yawrap，里面Jquery的版本是1.8.3，您可以按照实际情况选择自己需要的Jquery。
-然后您的页面结构应该是下面这样的，请注意无论js文件放在head内还是下面的/body之前，一定要把Jquery文件放在最上面,否则会报错jQuery is not defined。
+dist文件夹里面的文件便是用于生产环境的yawrap，然后您的页面结构应该是下面这样的：
 
 ```html
 <!DOCTYPE html>
@@ -24,11 +20,11 @@ dist文件夹里的便是用于生产环境的yawrap，里面Jquery的版本是1
 	<meta charset="utf-8">
 	<title>title</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="renderer" content="webkit">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 <body>
-    body...
-<script src="../dist/jquery.min.js"></script>
+    Here is the body content...
 <script src="../dist/yawrap.min.js"></script>
 </body>
 </html>
