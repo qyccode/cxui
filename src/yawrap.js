@@ -9,7 +9,7 @@
  * Released under the MIT License
  * https://opensource.org/licenses/MIT
  *
- * Date: 2018.2.1 17:25
+ * Date: 2018.2.2 17:25
  */
 ;(function(global,undefined){
     'use strict' 
@@ -64,8 +64,8 @@
 }(window));
 /* Define your website's primary and secondary colors as well as secondary colors */
 window.yawColor = function(main,second,third){
-    var style = document.createElement('style');
-    style.type = 'text/css';
-    style.append('.yawmain,.hv-yawmain:hover{color: ' + main + '}.bg-yawmain,.hv-bg-yawmain:hover{background-color:' + main + '}.yawsec,.hv-yawsec:hover{color: ' + second + '}.bg-yawsec,.hv-bg-yawsec:hover{background-color:' + second + '}.yawthr,.hv-yawthr:hover{color: ' + third + '}.bg-yawthr,.hv-bg-yawthr:hover{background-color:' + third + '}');
-    document.querySelector('head').appendChild(style);
+    var yawStyle = document.createElement('style');
+    yawStyle.type = 'text/css';
+    yawStyle.append('.yawmain,.hv-yawmain:hover{color: ' + main + '}.bg-yawmain,.hv-bg-yawmain:hover{background-color:' + main + '}.yawsec,.hv-yawsec:hover{color: ' + second + '}.bg-yawsec,.hv-bg-yawsec:hover{background-color:' + second + '}.yawthr,.hv-yawthr:hover{color: ' + third + '}.bg-yawthr,.hv-bg-yawthr:hover{background-color:' + third + '}');
+    document.querySelector('head').appendChild(yawStyle);
 }
