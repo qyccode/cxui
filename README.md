@@ -26,6 +26,10 @@ dist文件夹里面的文件便是用于生产环境的yawrap，然后您的页�
 <body>
     Here is the body content...
 <script src="../dist/yawrap.min.js"></script>
+<script type="text/javascript">
+    //如果需要的话，你可以自定义三种颜色
+    yawColor('主要色','辅助色','备用色')
+</script>
 </body>
 </html>
 ```
