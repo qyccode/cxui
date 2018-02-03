@@ -2,7 +2,7 @@
   <a href="http://yawrap.yawzhou.com"><img src="http://img.yawzhou.com/yawrap.png" width="50%"/></a>
 </p>
 
-## Yawrap
+## Yawrap v1.0.0
 ---
 > A simple procedural development of the web framework.
 
