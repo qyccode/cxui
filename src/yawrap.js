@@ -66,6 +66,6 @@
 window.yawColor = function(main,second,third){
     var yawStyle = document.createElement('style');
     yawStyle.type = 'text/css';
-    yawStyle.append('.yawmain,.hv-yawmain:hover{color: ' + main + '}.bg-yawmain,.hv-bg-yawmain:hover{background-color:' + main + '}.yawsec,.hv-yawsec:hover{color: ' + second + '}.bg-yawsec,.hv-bg-yawsec:hover{background-color:' + second + '}.yawthr,.hv-yawthr:hover{color: ' + third + '}.bg-yawthr,.hv-bg-yawthr:hover{background-color:' + third + '}');
+    yawStyle.append('.yawmain,.hv-yawmain:hover{color: ' + main + '}.bg-yawmain,.hv-bg-yawmain:hover{background-color:' + main + '}.yawaux,.hv-yawaux:hover{color: ' + second + '}.bg-yawaux,.hv-bg-yawaux:hover{background-color:' + second + '}.yawspa,.hv-yawspa:hover{color: ' + third + '}.bg-yawspa,.hv-bg-yawspa:hover{background-color:' + third + '}');
     document.querySelector('head').appendChild(yawStyle);
 }
