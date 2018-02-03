@@ -11,7 +11,7 @@
 项目主页：http://yawrap.yawzhou.com
 
 ### Quick Start
-dist文件夹里面的文件便是用于生产环境的yawrap，然后您的页面结构应该是下面这样的：
+dist文件夹里面的yawrap.min.js便是用于生产环境的yawrap，然后您的页面结构应该是下面这样的：
 
 ```html
 <!DOCTYPE html>
