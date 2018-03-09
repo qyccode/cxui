@@ -1,15 +1,15 @@
 ﻿/**
- * Yawrap v1.0.0
+ * Yawrap v0.3.0
  * http://yawrap.yawzhou.com
  *
- * Author: Yaw Zhou
+ * Author: YawZhou
  * https://www.yawzhou.com
  *
- * Copyright © 2018 Yaw Zhou,admin@yawzhou.com
- * Released under the MIT License
+ * Copyright © 2018 YawZhou,admin@yawzhou.com
+ * Released under the MIT License.
  * https://opensource.org/licenses/MIT
  *
- * Date: 2018.2.1 17:25
+ * Date: 2018.3.9 17:10
  */
 /* 初始化css */
 body,p,ul,h1,h2,h3,h4,h5,h6{
@@ -171,35 +171,42 @@ a{
 	background-color: #795548;
 }
 /* 浅灰色 */
-.lightgrey,.hv-lightgrey:hover{
+.lightgray,.hv-lightgray:hover{
 	color: #ddd;
 }
-.bg-lightgrey,.hv-bg-lightgrey:hover{
+.bg-lightgray,.hv-bg-lightgray:hover{
 	background-color: #ddd;
 }
 /* 灰色 */
-.grey,.hv-grey:hover{
+.gray,.hv-gray:hover{
 	color: #9e9e9e;
 }
-.bg-grey,.hv-bg-grey:hover{
+.bg-gray,.hv-bg-gray:hover{
 	background-color: #9e9e9e;
 }
 /* 深灰色 */
-.darkgrey,.hv-darkgrey:hover{
+.darkgray,.hv-darkgray:hover{
 	color: #666;
 }
-.bg-darkgrey,.hv-bg-darkgrey:hover{
+.bg-darkgray,.hv-bg-darkgray:hover{
 	background-color: #666;
 }
 /* 蓝灰 */
-.bluegrey,.hv-bluegrey:hover{
+.bluegray,.hv-bluegray:hover{
 	color: #607d8b;
 }
-.bg-bluegrey,.hv-bg-bluegrey:hover{
+.bg-bluegray,.hv-bg-bluegray:hover{
 	background-color: #607d8b;
 }
+/* 浅黑 */
+.lightblack,.hv-lightblack:hover{
+	color: #333;
+}
+.bg-lightblack,.hv-bg-lightblack:hover{
+	background-color: #333;
+}
 /* 默认边框 */
-.bd{
+.bd,.hv-bd:hover{
 	border: 1px solid #000;
 }
 /* 取消边框 */
@@ -214,11 +221,28 @@ a{
 .i,.hv-i:hover{
 	font-style: italic;
 }
+/* font-weight */
+.fw-no{
+	font-weight: normal;
+}
+/* text-decoration */
+.td-t,.td-t:hover{
+	text-decoration:overline;
+}
+.td-c,.td-c:hover{
+	text-decoration:line-through;
+}
+.td-b,.td-b:hover{
+	text-decoration:underline;
+}
+.td-no,.td-no:hover{
+	text-decoration:none;
+}
 /* 英文单词换行 */
 .break{
 	word-wrap: break-word;
 }
-/* 鼠标移入指针变化 */
+/* 鼠标指针变化 */
 .hand{
 	cursor: pointer;
 }
@@ -234,6 +258,51 @@ a{
 /*去除表单外边框*/
 .ol-no{
 	outline: none;
+}
+/* display属性 */
+.no{
+	display: none;
+}
+.no-i{
+	display: none!important;
+}
+.in{
+	display: inline;
+}
+.in-i{
+	display: inline!important;
+}
+.in-bl{
+	display: inline-block;
+}
+.in-bl-i{
+	display: inline-block!important;
+}
+.bl{
+	display: block;
+}
+.bl-i{
+	display: block!important;
+}
+/* vertical-align属性 */
+.va-t{
+	vertical-align:top;
+}
+.va-c{
+	vertical-align:middle;
+}
+.va-b{
+	vertical-align:bottom;
+}
+
+/* 超出隐藏 */
+.hide{
+	overflow: hidden;
+}
+.el-hide{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
 }
 /* 相对定位 */
 .rel{
@@ -345,37 +414,36 @@ a{
 .g-24{
 	width: 100%;
 }
-
 /* pc端Pad端mobile端自适应 */
 .pc-bl{
+	display: block;
+}
+.pc-bl-i{
 	display: block!important;
 }
 .pc{
+	display: inline-block;
+}
+.pc-i{
 	display: inline-block!important;
 }
 .pc-in{
+	display: inline;
+}
+.pc-in-i{
 	display: inline!important;
 }
-.pad-bl{
-	display: none!important;
+.pad-bl,.pad,.pad-in,.m-bl,.m,.m-in{
+	display: none;
 }
-.pad{
-	display: none!important;
-}
-.pad-in{
-	display: none!important;
-}
-.m-bl{
-	display: none!important;
-}
-.m{
-	display: none!important;
-}
-.m-in{
+.pad-bl-i,.pad-i,.pad-in-i,.m-bl-i,.m-i,.m-in-i{
 	display: none!important;
 }
 @media screen and (min-width: 1180px){
 	.pc-no{
+		display: none;
+	}
+	.pc-no-i{
 		display: none!important;
 	}
 	.pc-g-1{
@@ -485,34 +553,28 @@ a{
 	}
 }
 @media screen and (min-width: 640px) and (max-width: 1180px){
-	.pc-bl{
-		display: none!important;
-	}
-	.pc{
-		display: none!important;
-	}
-	.pc-in{
-		display: none!important;
-	}
 	.pad-bl{
+		display: block;
+	}
+	.pad-bl-i{
 		display: block!important;
 	}
 	.pad{
+		display: inline-block;
+	}
+	.pad-i{
 		display: inline-block!important;
 	}
 	.pad-in{
+		display: inline-block;
+	}
+	.pad-in-i{
 		display: inline-block!important;
 	}
-	.pad-no{
-		display: none!important;
+	.pad-no,.pc-bl,.pc,.pc-in,.m-bl,.m,.m-in{
+		display: none;
 	}
-	.m-bl{
-		display: none!important;
-	}
-	.m{
-		display: none!important;
-	}
-	.m-in{
+	.pad-no-i,.pc-bl-i,.pc-i,.pc-in-i,.m-bl-i,.m-i,.m-in-i{
 		display: none!important;
 	}
 	.pad-g-1{
@@ -622,34 +684,28 @@ a{
 	}
 }
 @media screen and (max-width: 640px){
-	.pc-bl{
-		display: none!important;
-	}
-	.pc{
-		display: none!important;
-	}
-	.pc-in{
-		display: none!important;
-	}
-	.pad-bl{
-		display: none!important;
-	}
-	.pad{
-		display: none!important;
-	}
-	.pad-in{
-		display: none!important;
-	}
 	.m-bl{
+		display: block;
+	}
+	.m-bl-i{
 		display: block!important;
 	}
 	.m{
+		display: inline-block;
+	}
+	.m-i{
 		display: inline-block!important;
 	}
 	.m-in{
+		display: inline;
+	}
+	.m-in-i{
 		display: inline!important;
 	}
-	.m-no{
+	.m-no,.pc-bl,.pc,.pc-in,.pad-bl,.pad,.pad-in{
+		display: none;
+	}
+	.m-no-i,.pc-bl-i,.pc-i,.pc-in-i,.pad-bl-i,.pad-i,.pad-in-i{
 		display: none!important;
 	}
 	.m-g-1{
@@ -758,73 +814,41 @@ a{
 		float: right;
 	}
 }
-/* display属性 */
-.no{
-	display: none;
-}
-.in{
-	display: inline;
-}
-.bl{
-	display: block;
-}
-.in-bl{
-	display: inline-block;
-}
-/* vertical-align属性 */
-.va-t{
-	vertical-align:top;
-}
-.va-c{
-	vertical-align:middle;
-}
-.va-b{
-	vertical-align:bottom;
-}
-/* 超出隐藏 */
-.hide{
-	overflow: hidden;
-}
-.el-hide{
-	overflow: hidden;
-	text-overflow:ellipsis;
-	white-space: nowrap;
-}
-/* 边框阴影 */
-.box-sd,.hv-box-sd:hover{
+/* 阴影 */
+.bsd,.hv-bsd:hover{
 	box-shadow: rgb(153, 153, 153) 0px 0px 8px;
 }
 /* 不透明度 */
-.op-0{
+.oc-0{
 	opacity: 0;
 }
-.op-1{
+.oc-1{
 	opacity: 0.1;
 }
-.op-2{
+.oc-2{
 	opacity: 0.2;
 }
-.op-3{
+.oc-3{
 	opacity: 0.3;
 }
-.op-4{
+.oc-4{
 	opacity: 0.4;
 }
-.op-5{
+.oc-5{
 	opacity: 0.5;
 }
-.op-6{
+.oc-6{
 	opacity: 0.6;
 }
-.op-7{
+.oc-7{
 	opacity: 0.7;
 }
-.op-8{
+.oc-8{
 	opacity: 0.8;
 }
-.op-9{
+.oc-9{
 	opacity: 0.9;
 }
-.op-10{
+.oc-10{
 	opacity: 1;
 }

@@ -38,6 +38,6 @@ dist文件夹里面的yawrap.min.js便是用于生产环境的yawrap，然后您
 Released under the MIT License(https://opensource.org/licenses/MIT)
 
 ### Thanks
-* 隐澈 (我的小伙伴 UI小可爱)
+* 我的UI小妹妹 FanyXu (听起来小妹妹比小姐姐更可爱不是嘛#0.0)
 
 ##### Yawrap完全遵循语义化版本2.0.0(https://semver.org/lang/zh-CN/)

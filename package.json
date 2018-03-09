@@ -1,6 +1,6 @@
 {
   "name": "yawrap",
-  "version": "1.0.0",
+  "version": "0.3.0",
   "description": "A simple procedural development of the web framework.",
   "main": "main.js",
   "scripts": {
