@@ -8,7 +8,11 @@
 
 > Yawrap是一款为懒的写css党而生的渐进式web前端框架，你只需要专心编辑你的HTML，在提高开发效率的同时保证页面性能及渲染的可靠性，后面我们会慢慢完善模块化以及组件化，将Yawrap做到极致。
 
+<<<<<<< HEAD
 项目主页：http://yawrap.yawzhou.com 
+=======
+项目主页：http://yawrap.yawzhou.com/
+>>>>>>> 220c372a0ff98056c86eb82567ac9af7fe3da002
 开发文档：https://yawzhou.github.io/yawrap/doc/
 
 ### Quick Start
@@ -24,7 +28,7 @@ dist文件夹里面的yawrap.min.js便是用于生产环境的yawrap，然后您
 	<meta name="renderer" content="webkit">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
-<body>
+<body style="display:none;">
     Here is the body content...
 <script src="../dist/yawrap.min.js"></script>
 <script type="text/javascript">
