@@ -5,11 +5,12 @@
  * Author: YawZhou
  * https://www.yawzhou.com
  *
- * Copyright © 2018 YawZhou,admin@yawzhou.com
+ * Copyright (c) 2018 YawZhou,admin@yawzhou.com
  * Released under the MIT License.
  * https://opensource.org/licenses/MIT
  *
- * Date: 2018.3.9 17:10
+ * Start Date: 2017.09.18
+ * Last Update : 2018.03.12 16:10
  */
 /* 初始化css */
 body,p,ul,h1,h2,h3,h4,h5,h6{
@@ -226,16 +227,16 @@ a{
 	font-weight: normal;
 }
 /* text-decoration */
-.td-t,.td-t:hover{
+.td-t,.hv-td-t:hover{
 	text-decoration:overline;
 }
-.td-c,.td-c:hover{
+.td-c,.hv-td-c:hover{
 	text-decoration:line-through;
 }
-.td-b,.td-b:hover{
+.td-b,.hv-td-b:hover{
 	text-decoration:underline;
 }
-.td-no,.td-no:hover{
+.td-no,.hv-td-no:hover{
 	text-decoration:none;
 }
 /* 英文单词换行 */

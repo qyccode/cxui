@@ -5,11 +5,12 @@
  * Author: YawZhou
  * https://www.yawzhou.com
  *
- * Copyright © 2018 YawZhou,admin@yawzhou.com
+ * Copyright (c) 2018 YawZhou,admin@yawzhou.com
  * Released under the MIT License.
  * https://opensource.org/licenses/MIT
  *
- * Date: 2018.3.9 17:10
+ * Start Date: 2017.09.18
+ * Last Update : 2018.03.09 17:10
  */
 ;(function(window, undefined){'use strict';
     window.addEventListener("load",function(){
