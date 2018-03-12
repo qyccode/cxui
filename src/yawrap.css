@@ -416,31 +416,25 @@ a{
 	width: 100%;
 }
 /* pc端Pad端mobile端自适应 */
-.pc-bl{
-	display: block;
-}
-.pc-bl-i{
-	display: block!important;
-}
-.pc{
-	display: inline-block;
-}
-.pc-i{
-	display: inline-block!important;
-}
-.pc-in{
-	display: inline;
-}
-.pc-in-i{
-	display: inline!important;
-}
-.pad-bl,.pad,.pad-in,.m-bl,.m,.m-in{
-	display: none;
-}
-.pad-bl-i,.pad-i,.pad-in-i,.m-bl-i,.m-i,.m-in-i{
-	display: none!important;
-}
 @media screen and (min-width: 1180px){
+	.pc-bl{
+		display: block;
+	}
+	.pc-bl-i{
+		display: block!important;
+	}
+	.pc{
+		display: inline-block;
+	}
+	.pc-i{
+		display: inline-block!important;
+	}
+	.pc-in{
+		display: inline;
+	}
+	.pc-in-i{
+		display: inline!important;
+	}
 	.pc-no{
 		display: none;
 	}
@@ -572,10 +566,10 @@ a{
 	.pad-in-i{
 		display: inline-block!important;
 	}
-	.pad-no,.pc-bl,.pc,.pc-in,.m-bl,.m,.m-in{
+	.pad-no{
 		display: none;
 	}
-	.pad-no-i,.pc-bl-i,.pc-i,.pc-in-i,.m-bl-i,.m-i,.m-in-i{
+	.pad-no-i{
 		display: none!important;
 	}
 	.pad-g-1{
@@ -703,10 +697,10 @@ a{
 	.m-in-i{
 		display: inline!important;
 	}
-	.m-no,.pc-bl,.pc,.pc-in,.pad-bl,.pad,.pad-in{
+	.m-no{
 		display: none;
 	}
-	.m-no-i,.pc-bl-i,.pc-i,.pc-in-i,.pad-bl-i,.pad-i,.pad-in-i{
+	.m-no-i{
 		display: none!important;
 	}
 	.m-g-1{
