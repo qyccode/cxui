@@ -566,10 +566,10 @@ a{
 	.pad-in-i{
 		display: inline-block!important;
 	}
-	.pad-no{
+	.pad-no,.pc,.pc-in,.pc-bl{
 		display: none;
 	}
-	.pad-no-i{
+	.pad-no-i,.pc-i,.pc-in-i,.pc-bl-i{
 		display: none!important;
 	}
 	.pad-g-1{
@@ -697,10 +697,10 @@ a{
 	.m-in-i{
 		display: inline!important;
 	}
-	.m-no{
+	.m-no,.pc,.pc-in,.pc-bl,.pad,.pad-in,.pad-bl{
 		display: none;
 	}
-	.m-no-i{
+	.m-no-i,.pc-i,.pc-in-i,.pc-bl-i,.pad-i,.pad-in-i,.pad-bl-i{
 		display: none!important;
 	}
 	.m-g-1{
