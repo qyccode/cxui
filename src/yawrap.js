@@ -1,5 +1,5 @@
 /**
- * Yawrap v0.3.0
+ * Yawrap v0.3.1
  * http://yawrap.yawzhou.com
  *
  * Author: YawZhou
@@ -14,7 +14,7 @@
  */
 ;(function(window, undefined){'use strict';
     window.addEventListener("load",function(){
-        console.log("%c Yawrap v0.3.0 By YawZhou && FanyXu http://yawrap.yawzhou.com ","background:#2196f3;color:#fff;padding:2px;border-radius:20px;");
+        console.log("%c Yawrap v0.3.1 By YawZhou && FanyXu http://yawrap.yawzhou.com ","background:#2196f3;color:#fff;padding:2px;border-radius:20px;");
         document.body.style.display = 'block';
         var yaw = document.querySelectorAll('*');
         for (var i = 0; i < yaw.length; i++) {

@@ -2,14 +2,15 @@
   <a href="http://yawrap.yawzhou.com"><img src="http://img.yawzhou.com/yawrap.png" width="50%"/></a>
 </p>
 
-## Yawrap v0.3.0
+## Yawrap v0.3.1
 ---
 > A simple procedural development of the web framework.
 
 > Yawrap是一款为懒的写css党而生的渐进式web前端框架，你只需要专心编辑你的HTML，在提高开发效率的同时保证页面性能及渲染的可靠性，后面我们会慢慢完善模块化以及组件化，将Yawrap做到极致。
 
 项目主页：http://yawrap.yawzhou.com<br>
-开发文档：https://yawzhou.github.io/yawrap/doc/
+更新日志：https://yawzhou.github.io/yawrap/UpdateLog<br>
+开发文档：https://yawzhou.github.io/yawrap/doc
 
 ### Quick Start
 dist文件夹里面的yawrap.min.js便是用于生产环境的yawrap，然后您的页面结构应该是下面这样的：
@@ -39,6 +40,6 @@ dist文件夹里面的yawrap.min.js便是用于生产环境的yawrap，然后您
 Released under the MIT License(https://opensource.org/licenses/MIT)
 
 ### Thanks
-* 我的UI小妹妹 FanyXu (听起来小妹妹比小姐姐更可爱不是嘛 #0.0)
+* UI设计 FanyXu
 
 ##### Yawrap完全遵循语义化版本2.0.0(https://semver.org/lang/zh-CN/)
