@@ -3,7 +3,7 @@ module.exports = {
   output: {
     path: __dirname + "/dist",
     filename: "yawrap.min.js"
-  },
+  }, 
   module:{
         loaders:[
             {
