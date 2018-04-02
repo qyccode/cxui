@@ -14,9 +14,9 @@
  */
 ;(function(window, undefined){'use strict';
     window.addEventListener("load",function(){
+        document.body.style.display = 'block';
         var projectName = 'Yawrap';
         var version = 'v0.3.1';
-        document.body.style.display = 'block';
         var yaw = document.querySelectorAll('a,article,address,aside,audio,b,base,blockquote,body,br,button,canvas,caption,cite,code,col,colgroup,command,datalist,dd,del,details,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,frame,h1,h2,h3,h4,h5,h6,header,hr,i,iframe,img,input,ins,label,li,map,mark,menu,nav,ol,option,output,p,pre,progress,q,section,select,small,source,span,strong,sub,sup,table,tbody,td,textarea,tfoot,th,thead,time,title,tr,track,tt,u,ul,var,video,wbr');
         for (var i = 0; i < yaw.length; i++) {
             function yawrap(w, h, maw, mah, miw, mih, lh, fs, cl, bg, ti, t, r, b, l, mg, mgt, mgr, mgb, mgl, pd, pdt, pdr, pdb, pdl, bd, bdt, bdr, bdb, bdl, br, zi, ls) {
