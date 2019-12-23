@@ -32,9 +32,9 @@
 ```
 
 ### License
-Released under the MIT License. (https://opensource.org/licenses/MIT)
+Released under the MIT License (https://opensource.org/licenses/MIT)
 
 ### Thanks
 * Fany、Wase
 
-##### CXUI完全遵循语义化版本2.0.0. (https://semver.org/lang/zh-CN/)
+##### CXUI完全遵循语义化版本2.0.0 (https://semver.org/lang/zh-CN/)
