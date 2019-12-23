@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://ui.chinsea.net">CXUI(preparing...)</a>
+  <a href="https://ui.chinsea.net">CXUI (preparing...)</a>
 </p>
 
 ## CXUI v0.1.0
@@ -8,7 +8,7 @@
 
 > CXUI的前身是Yawrap，是一款简单易用的前端UI框架，你只需要专心编辑你的HTML，在提高开发效率的同时保证页面渲染的可靠性，后面我们会慢慢完善模块以及组件化，将CXUI做到极致。
 
-项目主页：https://ui.chinsea.net(待上线...)<br>
+项目主页：https://ui.chinsea.net (待上线...)<br>
 
 ### Quick Start
 您的初始页面结构应该是这样的：
@@ -32,9 +32,9 @@
 ```
 
 ### License
-Released under the MIT License(https://opensource.org/licenses/MIT)
+Released under the MIT License. (https://opensource.org/licenses/MIT)
 
 ### Thanks
 * Fany、Wase
 
-##### CXUI完全遵循语义化版本2.0.0(https://semver.org/lang/zh-CN/)
+##### CXUI完全遵循语义化版本2.0.0. (https://semver.org/lang/zh-CN/)
