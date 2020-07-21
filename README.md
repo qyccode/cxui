@@ -6,7 +6,7 @@
 ---
 > A simple and easy to use UI framework.
 
-> CXUI的前身是Yawrap，是一款简单易用的前端UI框架，你只需要专心编辑你的HTML，在提高开发效率的同时保证页面渲染的可靠性，后面我们会慢慢完善模块以及组件化，将CXUI做到极致。
+> 一款简单易用、高效、碎片化的前端UI框架，你只需要专心编辑你的HTML，我们会努力完善CXUI的可用可靠性，将其做到极致。
 
 项目主页：https://ui.chinsea.net (待上线...)<br>
 
