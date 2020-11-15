@@ -35,6 +35,6 @@
 Released under the MIT License (https://opensource.org/licenses/MIT)
 
 ### Thanks
-* Fany、Wase
+* Fany
 
 ##### CXUI完全遵循语义化版本2.0.0 (https://semver.org/lang/zh-CN/)
